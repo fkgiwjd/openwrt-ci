@@ -3,12 +3,12 @@ name: IPQ60XX-6.12-WIFI
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 19 * * *
+    - cron: 0 0 1 * *
 
 env:
   REPO_URL: https://github.com/LiBwrt/openwrt-6.x.git
   REPO_BRANCH: k6.12-nss
-  CONFIG_FILE: configs/ipq60xx-6.12-wifi.config
+  CONFIG_FILE: configs/RE-SS-01-6.12-wifi.config
   DIY_SCRIPT: libwrt.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
