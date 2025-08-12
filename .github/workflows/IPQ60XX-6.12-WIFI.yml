@@ -8,7 +8,7 @@ on:
 env:
   REPO_URL: https://github.com/LiBwrt/openwrt-6.x.git
   REPO_BRANCH: k6.12-nss
-  CONFIG_FILE: configs/RE-SS-01-6.12-wifi.config
+  CONFIG_FILE: configs/RE-SS-01.config
   DIY_SCRIPT: ress01.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
