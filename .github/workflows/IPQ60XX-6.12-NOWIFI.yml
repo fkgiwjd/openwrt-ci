@@ -8,7 +8,7 @@ on:
 env:
   REPO_URL: https://github.com/LiBwrt/openwrt-6.x.git
   REPO_BRANCH: k6.12-nss
-  CONFIG_FILE: configs/nowifi-ress01.config
+  CONFIG_FILE: configs/ress01-nowifi.config
   DIY_SCRIPT: ress01.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
